@@ -1,0 +1,36 @@
+{
+  "name": "ng-intident",
+  "version": "1.0.0",
+  "description": "Script to serve angular 8 app over https and integrate with identity server.",
+  "main": "index.js",
+  "bin": {
+    "ts-node": "node_modules\\ts-node\\dist\\bin.js"
+  },
+  "scripts": {
+    "exec": "ts-node src\\index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "https",
+    "ssl",
+    "identity-server",
+    "isonet",
+    "auth"
+  ],
+  "author": "Eusha Rizvi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@types/rimraf": "^2.0.3",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.1",
+    "rxjs": "^6.5.4"
+  }
+}

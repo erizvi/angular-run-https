@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "allowJs": true,
+        "rootDir": "./src"
+    },
+    "exclude": [
+        "dist",
+        "webpack.config.js"
+    ]
+}
